@@ -1,0 +1,115 @@
+* {
+    /*padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+    background-color: rgba(0, 0, 0, 0.6);*/
+    background-image: url("/portfolio/images/jelly.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+/* dont use ln15-ln39 unless you need to
+.here {
+    height: 100vh;
+    width: 100%;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.6));
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+} */
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: visible;
+    
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position:fixed;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: rgba(68, 3, 138, 0.7);
+    border-radius: 6px;
+}
+
+#logo {
+    width: 550px;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*might need to delete and fix the titles and possibly the header because damn, i cannot do it*/
+#title {
+    text-align: center;
+    padding-top: 100px;
+    width: 400px;
+    height:800px;
+    background: transparent;
+}
+
+#title:before {
+    
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
